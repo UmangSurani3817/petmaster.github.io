@@ -1,0 +1,346 @@
+@import url(fonts/font.css);
+
+/* navbar */
+#top_nav{
+    background-color: #daac00 !important;
+    padding: 0 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+#searchbox{
+    background-color: #fcc302 !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    position: relative !important;
+    left: 47px !important;
+    box-shadow: 5px 10px 11px 0px #00000021 !important;
+    
+}
+
+#searchbox::placeholder{
+    color: white;
+}
+
+#searchbtn{
+    position: relative !important;
+    z-index: 1 !important;
+    background-color: #00bec9 !important;
+    color: white !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+   
+}
+
+@media only screen and (max-width: 768px){
+    #searchform{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -20px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #top_nav{
+        padding: 0%;
+    }
+}
+
+/* banner */
+
+#banner{
+    background-color: #fcc302;
+    padding-bottom: 20px;
+}
+
+#bannertxt h1{
+    color: white;
+    font-size: 65px;
+    margin-top: 100px;
+    font-family: popins;
+}
+
+#bannertxt p{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#bannerbtn1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+
+#bannerbtn2{
+    color:white;
+    border: 2px solid white;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 1300px){
+    #bannertxt h1 {
+        font-size: 50px;
+    }
+
+    #banner{
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    
+        #bannertxt h1{
+            color: white;
+            font-size: 35px;
+            margin-top: 100px;
+            font-family: popins;
+        }
+   
+
+    #bannerimg{
+        padding-top: 70px;
+    }
+}
+
+
+/* service */
+
+#servicetxt{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-family: popinssemibold;
+}
+
+#servicetxt p{
+    font-family: popins; 
+}
+
+#servicebtn{
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+}
+
+#serviceimg{
+    padding: 5%;
+}
+
+@media only screen and (max-width: 768px){
+    #serviceimg{
+        padding: 8%;
+    }
+}
+
+/* Care */
+#care{
+    background-color: #fcc302;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+#caretxt{
+    color: white;
+    font-family: popinsbold;
+}
+
+#caretxt2{
+    color: white;
+    font-family: popins;
+}
+
+#careimg1 h3{
+    font-family: popinssemibold;
+    color: white;
+}
+
+#careimg1 p{
+    font-family: popins;
+    color: white;
+}
+
+#careimg2 h3{
+    font-family: popinssemibold;
+    color: white;
+}
+
+#careimg2 p{
+    font-family: popins;
+    color: white;
+}
+
+#careimg3 h3{
+    font-family: popinssemibold;
+    color: white;
+}
+
+#careimg3 p{
+    font-family: popins;
+    color: white;
+}
+
+/* Team */
+
+#team{
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    
+}
+
+#teamxt1{
+    font-family: popinsbold;
+}
+
+#teamxt2{
+    font-family: popins;
+}
+
+
+
+#textimg1 h3{
+    font-family: popinssemibold;
+    color: black;
+}
+
+#textimg1 p{
+    font-family: popins;
+    color: black;
+}
+
+#textimg2 h3{
+    font-family: popinssemibold;
+    color: black;
+}
+
+#textimg2 p{
+    font-family: popins;
+    color: black;
+}
+
+#textimg3 h3{
+    font-family: popinssemibold;
+    color: black;
+}
+
+#textimg3 p{
+    font-family: popins;
+    color: black;
+}
+
+#social{
+    color: #daac00;
+}
+
+/* client */
+
+#client{
+    background-color: #fcc302;
+}
+
+#client h2{
+    font-family: popinsmed;
+    color: white;
+}
+
+#client h1{
+    font-family: popinsbold;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 1366px){
+    #client h1{
+        font-size: 25px;
+    }
+}
+
+/* Recent Post */
+
+#recent{
+    font-family: popins;
+    color: #00bec9;
+}
+
+#Post{
+    font-family: popins; 
+}
+
+#read{
+    font-family: popinsmed;
+    color: #00bec9;
+}
+
+#read a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* Footer */
+
+
+#ftr h2{
+    font-family: popinssemibold;
+    color: white;
+}
+
+#ftr p{
+    font-family: popins; 
+    color: white; 
+}
+
+#ftr a{
+    font-family: popins; 
+    color: white; 
+    text-decoration: none;
+}
+
+#footer-form{
+    margin-top: 10ox;
+    margin-bottom: 10px;
+}
+
+#footer-search-box{
+    background-color: #fcc302;
+    color: white;
+    border: none;
+    padding: 15px;
+    max-width: 250px;
+    position: relative;
+    left: 10px;
+}
+
+#footer-search-submit{
+    background-color: #00bec9;
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding: 15px 40px;
+}
+
+@media only screen and (max-width: 1150px){
+    #footer-search-box{
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    #footer-search-box{
+        max-width: 120px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #footer-search-box{
+        max-width: 200px;
+    }
+}
